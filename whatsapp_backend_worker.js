@@ -366,7 +366,6 @@ console.log('Initializing Headless WhatsApp AI Client...');
 const client = new Client({
  authStrategy: new LocalAuth(),
  puppeteer: {
- executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
   headless: true,
   args: [
    '--no-sandbox',
